@@ -1,0 +1,5 @@
+behavior,p,d,q,rmse_after_rounding
+Muscular_effort,2,0,0,0.816496580927726
+insufficient_calorie_diet,5,0,0,0.408248290463863
+metabolic_syndrome,5,0,0,0.408248290463863
+

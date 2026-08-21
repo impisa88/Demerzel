@@ -1,0 +1,1271 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3"
+     xml:base="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:untitled-ontology-3="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#some -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#some"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Phisioterapy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Phisioterapy">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#do"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_Activity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_Activity">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#do"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_Disorder -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_Disorder">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#has"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Pressure_relief -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Pressure_relief">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#do"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Results -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Results">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#has"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Sports -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Sports">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#do"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#activity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#activity">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#has"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#adequateBehavior -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#adequateBehavior">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#has"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#behaviors -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#behaviors">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#has"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#do -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#do"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#frequency -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#frequency">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#has"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#harmfulBehavior -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#harmfulBehavior">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#has"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#has"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#illness -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#illness">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#has"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#recommendations -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#recommendations">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#has"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#relatedIllness -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#relatedIllness">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#has"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#susceptibilities -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#susceptibilities">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#has"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#some -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#some"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Adequate_Behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Adequate_Behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Behavior"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Harmful_Behavior"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Behavior">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#activity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_Activity"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#frequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Frequency"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Consequent_Illness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Consequent_Illness">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#relatedIllness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_disorder"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Daily_Activities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Daily_Activities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Embedded_Techologies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Embedded_Techologies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#-"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Frequency"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Insufficient"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Normal"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Frequency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Frequency"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Harmful_Behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Harmful_Behavior">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#relatedIllness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Consequent_Illness"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#susceptibilities"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Susceptibility"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Behavior"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Adequate_Behavior"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Susceptibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Susceptibility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Susceptibility"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Low_Susceptibility"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Insufficient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Insufficient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Frequency"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Normal"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Low_Susceptibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Low_Susceptibility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Susceptibility"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Susceptibility"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Machine_Learning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Machine_Learning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#-"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Mental_disorder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Mental_disorder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#-"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Normal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Normal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Frequency"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Insufficient"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Person">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_Disorder"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_disorder"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#behaviors"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Behavior"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Phisioterapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Phisioterapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_Activity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_disorder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_disorder"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Recommendation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Recommendation">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#adequateBehavior"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Adequate_Behavior"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Sports -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Sports">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Susceptibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Susceptibility">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#harmfulBehavior"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Harmful_Behavior"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#- -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#-"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#ANN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#ANN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Machine_Learning"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Accelerometer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Accelerometer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Embedded_Techologies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Anxiety -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Anxiety">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Mental_disorder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Basketball -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Basketball">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Sports"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#CNN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#CNN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Machine_Learning"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Cardiovascular_Diseases -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Cardiovascular_Diseases">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Consequent_Illness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Chronic_Pain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Chronic_Pain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Consequent_Illness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Climb_Ramp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Climb_Ramp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Daily_Activities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#DT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#DT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Machine_Learning"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Depression -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Depression">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Mental_disorder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Diabetes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Diabetes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Consequent_Illness"/>
+        <untitled-ontology-3:relatedIllness rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Paraplegia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#EMG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#EMG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Embedded_Techologies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Energy_expediture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Energy_expediture">
+        <untitled-ontology-3:activity rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Move"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive_Bad_Posture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive_Bad_Posture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive_Caloric_Diet_Consuption -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive_Caloric_Diet_Consuption">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive_Diet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive_Diet">
+        <untitled-ontology-3:Results rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Diabetes"/>
+        <untitled-ontology-3:Results rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Obesity"/>
+        <untitled-ontology-3:Results rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Thrombosis"/>
+        <untitled-ontology-3:frequency rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive_Caloric_Diet_Consuption"/>
+        <untitled-ontology-3:susceptibilities rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Diabetes_Development_Susceptibility"/>
+        <untitled-ontology-3:susceptibilities rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Thrombosis_Development_Susceptibility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive_Load_On_the_Arms -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive_Load_On_the_Arms">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#FSR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#FSR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Embedded_Techologies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Giroscope -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Giroscope">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Embedded_Techologies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#HMM -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#HMM">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Machine_Learning"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Bursitys_Development_Susceptibility -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Bursitys_Development_Susceptibility">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Susceptibility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Diabetes_Development_Susceptibility -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Diabetes_Development_Susceptibility">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Susceptibility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Pressure_Ulcers_Development -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Pressure_Ulcers_Development">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Susceptibility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Scoliosis_Development_Susceptibility -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Scoliosis_Development_Susceptibility">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Susceptibility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Thrombosis_Development_Susceptibility -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Thrombosis_Development_Susceptibility">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Susceptibility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Urinary_Infection_Development_Suscepbility -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Urinary_Infection_Development_Suscepbility">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Susceptibility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Hypocaloric_Diet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Hypocaloric_Diet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Recommendation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Insufficiency_Caloric_Diet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Insufficiency_Caloric_Diet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Insufficient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Insufficiency_Exercice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Insufficiency_Exercice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Insufficient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Insufficiency_urinary_catheter_hygiene -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Insufficiency_urinary_catheter_hygiene">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Insufficient"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Kinect -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Kinect">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Embedded_Techologies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#LightGBM -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#LightGBM">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Machine_Learning"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Move -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Move">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Daily_Activities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#NB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#NB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Machine_Learning"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Obesity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Obesity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Consequent_Illness"/>
+        <untitled-ontology-3:recommendations rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Hypocaloric_Diet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Osteoporosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Osteoporosis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Consequent_Illness"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#PWD_1_Paul -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#PWD_1_Paul">
+        <untitled-ontology-3:Physical_Disorder rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Paraplegia"/>
+        <untitled-ontology-3:behaviors rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#inadequate_load_on_the_arms"/>
+        <untitled-ontology-3:illness rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Pressure_Ulcers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#PWD_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#PWD_2">
+        <untitled-ontology-3:Physical_Disorder rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Tetraplegia"/>
+        <untitled-ontology-3:illness rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Scoliosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#PWD_3_John -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#PWD_3_John">
+        <untitled-ontology-3:Physical_Disorder rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Spinal_Cord_Injuries"/>
+        <untitled-ontology-3:behaviors rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive_Diet"/>
+        <untitled-ontology-3:illness rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Obesity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#PWD_4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#PWD_4">
+        <untitled-ontology-3:Physical_Disorder rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Paraplegia"/>
+        <untitled-ontology-3:behaviors rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive_Bad_Posture"/>
+        <untitled-ontology-3:frequency rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#inadequate_posture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#PWD_5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#PWD_5">
+        <untitled-ontology-3:Physical_Disorder rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Paraplegia"/>
+        <untitled-ontology-3:behaviors rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#insufficient_diet"/>
+        <untitled-ontology-3:frequency rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Insufficiency_Caloric_Diet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Paraplegia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Paraplegia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_disorder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Piezoeletric -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Piezoeletric">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Embedded_Techologies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Pressure_Ulcers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Pressure_Ulcers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Consequent_Illness"/>
+        <untitled-ontology-3:recommendations rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Pressure_relief"/>
+        <untitled-ontology-3:relatedIllness rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Paraplegia"/>
+        <untitled-ontology-3:relatedIllness rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Tetraplegia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Pressure_relief -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Pressure_relief">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Recommendation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#RF -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#RF">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Machine_Learning"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#RL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#RL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Machine_Learning"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#RNN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#RNN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Machine_Learning"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Regular_Diet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Regular_Diet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Rugby -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Rugby">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Sports"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#SVM -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#SVM">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Machine_Learning"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Scoliosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Scoliosis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Consequent_Illness"/>
+        <untitled-ontology-3:relatedIllness rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Paraplegia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Shoulder_Bursitis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Shoulder_Bursitis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Consequent_Illness"/>
+        <untitled-ontology-3:relatedIllness rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Paraplegia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Smartphone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Smartphone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Embedded_Techologies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Spinal_Cord_Injuries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Spinal_Cord_Injuries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_disorder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Strain_Gage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Strain_Gage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Embedded_Techologies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Take_a_bath -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Take_a_bath">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Daily_Activities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Tennis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Tennis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Sports"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Tetraplegia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Tetraplegia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Physical_disorder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Thrombosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Thrombosis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Consequent_Illness"/>
+        <untitled-ontology-3:relatedIllness rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Paraplegia"/>
+        <untitled-ontology-3:relatedIllness rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Tetraplegia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Urinary_and_Bowel_Issues -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Urinary_and_Bowel_Issues">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Consequent_Illness"/>
+        <untitled-ontology-3:relatedIllness rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Paraplegia"/>
+        <untitled-ontology-3:relatedIllness rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Tetraplegia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Video -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Video">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Embedded_Techologies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Wash_the_dishes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Wash_the_dishes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Daily_Activities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Wheelchair_Racing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Wheelchair_Racing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Sports"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#do_phisioterapy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#do_phisioterapy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Adequate_Behavior"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#do_sports -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#do_sports">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Adequate_Behavior"/>
+        <untitled-ontology-3:Physical_Activity rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#sports"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#inadequate_load_on_the_arms -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#inadequate_load_on_the_arms">
+        <untitled-ontology-3:Results rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Shoulder_Bursitis"/>
+        <untitled-ontology-3:frequency rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive_Load_On_the_Arms"/>
+        <untitled-ontology-3:susceptibilities rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Bursitys_Development_Susceptibility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#inadequate_posture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#inadequate_posture">
+        <untitled-ontology-3:Results rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Pressure_Ulcers"/>
+        <untitled-ontology-3:Results rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Scoliosis"/>
+        <untitled-ontology-3:frequency rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Excessive_Bad_Posture"/>
+        <untitled-ontology-3:susceptibilities rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Pressure_Ulcers_Development"/>
+        <untitled-ontology-3:susceptibilities rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Scoliosis_Development_Susceptibility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#inadequate_urinary_catheter_hygiene -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#inadequate_urinary_catheter_hygiene">
+        <untitled-ontology-3:Results rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Urinary_and_Bowel_Issues"/>
+        <untitled-ontology-3:frequency rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Insufficiency_urinary_catheter_hygiene"/>
+        <untitled-ontology-3:susceptibilities rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Urinary_Infection_Development_Suscepbility"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#insufficient_diet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#insufficient_diet">
+        <untitled-ontology-3:Results rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Pressure_Ulcers"/>
+        <untitled-ontology-3:frequency rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Insufficiency_Caloric_Diet"/>
+        <untitled-ontology-3:susceptibilities rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#High_Pressure_Ulcers_Development"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#kNN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#kNN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Machine_Learning"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#sports -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#sports">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Sports"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#p">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#x">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Diet_Inference</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#has"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#p"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Obesity"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#do"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#p"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Hypocaloric_Diet"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Sports_Inference</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#has"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#p"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Obesity"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#do"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#p"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#sports"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Pressure_Relief_Inference</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Person"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#has"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#x"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Pressure_Ulcers"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#do"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/jgh88/ontologies/2023/8/untitled-ontology-3#Pressure_relief"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
